@@ -1,0 +1,831 @@
+[2024-05-02 13:45:03,918: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3182:324EA5:F9A439:107AF63:66337BA0
+Accept-Ranges: bytes
+Date: Thu, 02 May 2024 11:40:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lin1730041-LIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714650017.791669,VS0,VE665
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fb2fb94399def68079181c0ae2582b3b02552daa
+Expires: Thu, 02 May 2024 11:45:17 GMT
+Source-Age: 0
+
+]
+[2024-05-02 14:36:34,687: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-02 14:36:34,688: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-02 14:38:02,449: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-02 15:00:47,554: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-02 15:00:47,556: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-02 15:08:53,181: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-02 15:08:53,182: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-02 17:37:56,146: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-02 17:37:56,147: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-02 17:46:28,658: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-05-02 17:46:28,660: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-05-02 17:53:41,220: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-02 17:53:41,568: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-02 17:53:41,568: INFO: main: *******************]
+[2024-05-02 17:53:41,569: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-02 17:53:42,030: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 17:53:42,204: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 17:53:42,313: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-02 18:22:06,705: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-02 18:22:07,158: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-02 18:22:07,159: INFO: main: *******************]
+[2024-05-02 18:22:07,160: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-02 18:22:07,645: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:22:07,857: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:22:07,985: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-02 18:22:07,986: INFO: main: *******************]
+[2024-05-02 18:22:07,987: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-02 18:22:08,236: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-02 18:23:08,022: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:23:08,243: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-02 18:44:21,833: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-02 18:44:22,225: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-02 18:44:22,226: INFO: main: *******************]
+[2024-05-02 18:44:22,226: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-02 18:44:22,754: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:44:22,947: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:44:23,081: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-02 18:44:23,082: INFO: main: *******************]
+[2024-05-02 18:44:23,082: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-02 18:44:23,364: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-02 18:45:20,779: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-02 18:45:20,883: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 10:52:41,671: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 10:52:41,912: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 10:52:41,912: INFO: main: *******************]
+[2024-05-03 10:52:41,912: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 10:52:42,256: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 10:52:42,372: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 10:52:42,463: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 10:52:42,464: INFO: main: *******************]
+[2024-05-03 10:52:42,464: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 10:52:42,620: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 10:52:43,870: ERROR: main: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\model_trainer.py", line 72, in train
+    self.model.fit(
+  File "C:\Users\amese\Desktop\cnnClassifier\venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\amese\Desktop\cnnClassifier\venv\lib\site-packages\keras\src\optimizers\base_optimizer.py", line 228, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-05-03 11:00:55,369: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:00:55,658: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:00:55,659: INFO: main: *******************]
+[2024-05-03 11:00:55,659: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:00:56,041: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:00:56,210: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:00:56,313: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:00:56,314: INFO: main: *******************]
+[2024-05-03 11:00:56,315: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:00:56,474: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:00:56,510: ERROR: main: train() got an unexpected keyword argument 'callback_list']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+TypeError: train() got an unexpected keyword argument 'callback_list'
+[2024-05-03 11:02:08,339: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:02:08,560: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:02:08,561: INFO: main: *******************]
+[2024-05-03 11:02:08,561: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:02:08,886: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:02:09,023: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:02:09,108: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:02:09,109: INFO: main: *******************]
+[2024-05-03 11:02:09,109: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:02:09,265: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:02:10,797: ERROR: main: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\amese\Desktop\cnnClassifier\venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\amese\Desktop\cnnClassifier\venv\lib\site-packages\keras\src\optimizers\base_optimizer.py", line 228, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-05-03 11:11:13,568: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:11:13,805: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:11:13,806: INFO: main: *******************]
+[2024-05-03 11:11:13,806: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:11:14,165: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:11:14,306: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:11:14,394: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:11:14,395: INFO: main: *******************]
+[2024-05-03 11:11:14,395: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:11:14,583: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:11:14,623: ERROR: main: 'TrainingConfig' object has no attribute 'params_learning_rate']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\training.py", line 68, in train
+    optimizer = tf.keras.optimizers.SGD(learning_rate=self.config.params_learning_rate)  # Utilisation de l'optimiseur SGD
+AttributeError: 'TrainingConfig' object has no attribute 'params_learning_rate'
+[2024-05-03 11:12:09,711: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:12:09,939: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:12:09,940: INFO: main: *******************]
+[2024-05-03 11:12:09,940: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:12:10,253: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:12:10,379: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:12:10,462: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:12:10,462: INFO: main: *******************]
+[2024-05-03 11:12:10,463: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:12:10,617: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:12:10,657: ERROR: main: 'TrainingConfig' object has no attribute 'learning_rate']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\training.py", line 67, in train
+    optimizer = tf.keras.optimizers.SGD(learning_rate=self.config.learning_rate)
+AttributeError: 'TrainingConfig' object has no attribute 'learning_rate'
+[2024-05-03 11:15:18,603: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:15:18,818: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:15:18,819: INFO: main: *******************]
+[2024-05-03 11:15:18,820: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:15:19,126: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:15:19,260: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:15:19,376: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:15:19,377: INFO: main: *******************]
+[2024-05-03 11:15:19,377: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:15:19,528: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:15:19,564: ERROR: main: [Errno 2] No such file or directory: 'params.yml']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\training.py", line 69, in train
+    with open('params.yml', 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'params.yml'
+[2024-05-03 11:16:46,416: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:16:46,629: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:16:46,630: INFO: main: *******************]
+[2024-05-03 11:16:46,630: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:16:46,998: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:16:47,127: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:16:47,228: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:16:47,229: INFO: main: *******************]
+[2024-05-03 11:16:47,229: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:16:47,386: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:16:47,431: ERROR: main: 'learning_rate']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\training.py", line 74, in train
+    learning_rate = params['learning_rate']
+KeyError: 'learning_rate'
+[2024-05-03 11:22:09,839: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:22:10,044: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:22:10,045: INFO: main: *******************]
+[2024-05-03 11:22:10,045: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:22:10,351: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:22:10,517: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:22:10,624: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:22:10,625: INFO: main: *******************]
+[2024-05-03 11:22:10,625: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:22:10,796: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:22:10,831: ERROR: main: train() missing 1 required positional argument: 'learning_rate']
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 37, in <module>
+    model_trainer.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_03_training.py", line 29, in main
+    training.train(
+TypeError: train() missing 1 required positional argument: 'learning_rate'
+[2024-05-03 11:23:01,790: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 11:23:01,999: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 11:23:01,999: INFO: main: *******************]
+[2024-05-03 11:23:01,999: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 11:23:02,291: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:23:02,408: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:23:02,492: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 11:23:02,493: INFO: main: *******************]
+[2024-05-03 11:23:02,493: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 11:23:02,692: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 11:24:08,197: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 11:24:08,289: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 13:05:56,996: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:05:57,465: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:05:57,466: INFO: main: *******************]
+[2024-05-03 13:05:57,467: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:05:58,164: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:05:58,335: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:05:58,442: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:05:58,444: INFO: main: *******************]
+[2024-05-03 13:05:58,444: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:05:58,630: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:07:28,061: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:07:28,175: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 13:07:44,398: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:07:44,745: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:07:44,747: INFO: main: *******************]
+[2024-05-03 13:07:44,747: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:07:45,214: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:07:45,380: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:07:45,494: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:07:45,495: INFO: main: *******************]
+[2024-05-03 13:07:45,495: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:07:45,701: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:08:53,290: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:08:53,456: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 13:15:34,585: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:15:34,951: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:15:34,951: INFO: main: *******************]
+[2024-05-03 13:15:34,952: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:15:35,358: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:15:35,507: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:15:35,606: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:15:35,607: INFO: main: *******************]
+[2024-05-03 13:15:35,607: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:15:35,796: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:16:34,831: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:16:35,036: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 13:16:35,036: INFO: main: *******************]
+[2024-05-03 13:16:35,036: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-03 13:16:35,260: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:16:53,671: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:18:07,062: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:18:07,447: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:18:07,448: INFO: main: *******************]
+[2024-05-03 13:18:07,449: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:18:07,835: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:18:07,979: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:18:08,070: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:18:08,071: INFO: main: *******************]
+[2024-05-03 13:18:08,072: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:18:08,259: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:20:51,313: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:20:51,515: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 13:20:51,516: INFO: main: *******************]
+[2024-05-03 13:20:51,517: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-03 13:20:51,912: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:21:14,214: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:34:49,468: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:34:49,849: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:34:49,849: INFO: main: *******************]
+[2024-05-03 13:34:49,850: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:34:50,252: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:34:50,446: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:34:50,552: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:34:50,553: INFO: main: *******************]
+[2024-05-03 13:34:50,553: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:34:50,766: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 13:36:53,120: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:36:53,126: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:41:24,138: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:41:24,144: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:41:40,887: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:41:40,893: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:42:21,846: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:42:21,850: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:43:12,952: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:43:12,960: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:44:12,484: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:44:12,490: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:45:27,029: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:45:27,034: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:48:33,636: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:48:33,641: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:49:10,992: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:49:11,000: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:49:29,904: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:49:29,909: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:50:11,998: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:50:12,004: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:52:46,573: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:52:46,580: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:53:10,999: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:53:11,008: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 13:59:54,974: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 13:59:55,312: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-03 13:59:55,313: INFO: main: *******************]
+[2024-05-03 13:59:55,313: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-03 13:59:55,861: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:59:56,038: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 13:59:56,243: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-03 13:59:56,244: INFO: main: *******************]
+[2024-05-03 13:59:56,245: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-03 13:59:56,458: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 14:02:16,090: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-05-03 14:02:16,202: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-03 14:02:16,203: INFO: main: *******************]
+[2024-05-03 14:02:16,204: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-03 14:02:16,446: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-03 14:02:36,186: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-03 14:03:19,948: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:03:19,958: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 14:04:11,361: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:04:11,392: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 14:05:14,120: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:05:14,125: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 14:06:05,218: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:06:05,223: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 14:06:36,810: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:06:36,817: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
+[2024-05-03 14:08:45,412: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-03 14:08:45,417: ERROR: main: <urlopen error unknown url type: https>]
+Traceback (most recent call last):
+  File "c:\Users\amese\Desktop\cnnClassifier\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "c:\Users\amese\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "C:\Users/amese/Desktop/cnnClassifier/src/cnnClassifier\components\data_ingestion.py", line 18, in download_file
+    filename, headers = request.urlretrieve(
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 539, in _open
+    return self._call_chain(self.handle_open, 'unknown',
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\amese\anaconda3\lib\urllib\request.py", line 1417, in unknown_open
+    raise URLError('unknown url type: %s' % type)
+urllib.error.URLError: <urlopen error unknown url type: https>
